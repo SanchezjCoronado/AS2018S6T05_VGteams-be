@@ -1,0 +1,30 @@
+server:
+  port: 8284
+spring:
+  datasource:
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 1
+    password: vgteams
+    url: jdbc:postgresql://168.138.140.0:5433/sessions
+    username: vgteams
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+#server:
+#  port: 8284
+#spring:
+#  datasource:
+#    hikari:
+#      connectionTimeout: 20000
+#      maximumPoolSize: 1
+#    password: M-ucyzkPFvwUl0yeCC9lOBG7OVRTeUsS
+#    url: jdbc:postgresql://suleiman.db.elephantsql.com:5432/awzklwiy
+#    username: awzklwiy
+#  jpa:
+#    hibernate:
+#      ddl-auto: validate
+#    show-sql: true
+
